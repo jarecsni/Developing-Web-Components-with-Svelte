@@ -30,5 +30,5 @@
    * Use global.d.ts instead of compilerOptions.types
    * to avoid limiting type declarations.
    */
-  "include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.cjs", "src/**/*.svelte", "src/main.js"]
+  "include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.cjs", "src/**/*.svelte", "src/main.js", "src/lib/input/Input.stories.jsx"]
 }
