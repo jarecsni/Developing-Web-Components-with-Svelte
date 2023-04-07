@@ -6,7 +6,7 @@
         id="name"
         {checked}
         {disabled}
-        on:change={onChange}
+        on:click = {onClick}
         {...$$props}
     />
     <label for="name">
@@ -19,8 +19,6 @@
     export let checked = true;
     export let label = "Checkbox";
     export let disabled = false;
-    function onChange(event) {
-        event.target.dispatchEvent(new CustomEvent("onchange", { composed: true }));
-    }
+    export let onClick = () => {};
     $: checked = checked !== false;
 </script>

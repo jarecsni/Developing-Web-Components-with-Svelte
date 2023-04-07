@@ -12,5 +12,8 @@ const Template = props => ({
 });
 
 export const Default = Template.bind({});
-Default.args = {};
+Default.args = {
+    checked: false,
+    onClick: () => alert("clicked")
+};
   
