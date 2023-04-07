@@ -1,4 +1,5 @@
 <script lang="ts">
+    /** the label for the input*/
     export let label = "Label:";
     export let placeholder = "";
     export let fieldType = "text";
